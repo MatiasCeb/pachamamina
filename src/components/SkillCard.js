@@ -1,28 +1,33 @@
 import React from "react";
 import '@justinribeiro/lite-youtube';
+import "./styles/SkillCard.css";
 
 const SkillCard = (props) => {
     const {skill} = props;
 
     return (
         <div className="youtube-item">
-            <p className="card-item__details--title">{skill.title}</p>
-            <p className="card-item__details--title">{skill.text}</p>
-            <lite-youtube
-                videoid={skill.videoId}
-                tabindex="0"
-                aria-label="button"
-            >
-                <a
-                    href={`https://youtube.com/watch?v=${skill.videoId}`}
-                    class="lty-playbtn"
-                    title={skill.title}
-                    role="button"
+            <div className="youtube-item--description">
+                <p>{skill.title}</p>
+                <p>{skill.text}</p>
+            </div>
+            <div className="lite-youtube">
+                <lite-youtube
+                    videoid={skill.videoId}
                     tabindex="0"
+                    aria-label="button"
                 >
-                    <span class="lyt-visually-hidden">{skill.title}</span>
-                </a>
-            </lite-youtube>
+                    <a
+                        className="lty-playbtn"
+                        href={`https://youtube.com/watch?v=${skill.videoId}`}
+                        title={skill.title}
+                        role="button"
+                        tabindex="0"
+                    >
+                        <span>{skill.title}</span>
+                    </a>
+                </lite-youtube>
+            </div>
         </div>
     )
 }

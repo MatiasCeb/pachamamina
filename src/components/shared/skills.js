@@ -5,6 +5,7 @@ export const skills =
             title:'NO ESTAMOS EN EL MISMO BARCO.',
             text:'No estamos en el mismo barco. Estamos en el mismo océano o en el mismo mar; unos en yate, otros en lancha, otros con salvavidas y otros nadando con todas sus fuerzas.  Seamos empaticos. Y dar nuestra ayuda, desde nuestro lugar. Ayudar a quien esta pasando un duelo de ausencia, pareja, trabajo, etc. Ponerse en sus zapatos y ayudar.',
             videoId: "eZ8YlPFqiMw",
+            iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/eZ8YlPFqiMw?si=ZTzz0KcsFl_QCb_p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
         },
         {
             id: 1,

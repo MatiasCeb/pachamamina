@@ -1,8 +1,7 @@
 .Navbar {
     display: flex;
     width: 100%;
-    padding: 0.5rem 1rem 1rem 1.5rem;
-    background-color: rgb(16, 2, 38);
+    background-color: rgb(255, 255, 255);
     justify-content: space-between;
 }
 .Navbar__brand {
@@ -23,6 +22,15 @@
 }
 .Header-name {
     margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(108, 121, 134);
+    vertical-align: -webkit-baseline-middle;
+}
+.NavBar-item {
+    margin-top: 25px;
+    margin-right: 10px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;

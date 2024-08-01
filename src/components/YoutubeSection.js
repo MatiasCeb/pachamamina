@@ -1,7 +1,6 @@
 import React from "react";
 import { skills } from "./shared/skills";
 import SkillCard from "./SkillCard";
-import StyledSkills from "./styles/StyledSkills";
 import "./styles/YoutubeSection.css";
 
 
