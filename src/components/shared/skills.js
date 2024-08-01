@@ -2,21 +2,21 @@ export const skills =
     [
         {
             id: 0,
-            title:'JavaScript',
-            image:"/assets/icons/icons8-javascript-gradient-64px.png",
-            text:'Nuestra API toma información minuto a minuto sobre las tasas que más determinan el comportamiento',          
+            title:'NO ESTAMOS EN EL MISMO BARCO.',
+            text:'No estamos en el mismo barco. Estamos en el mismo océano o en el mismo mar; unos en yate, otros en lancha, otros con salvavidas y otros nadando con todas sus fuerzas.  Seamos empaticos. Y dar nuestra ayuda, desde nuestro lugar. Ayudar a quien esta pasando un duelo de ausencia, pareja, trabajo, etc. Ponerse en sus zapatos y ayudar.',
+            videoId: "eZ8YlPFqiMw",
         },
         {
             id: 1,
-            title:'React',
-            image:'/assets/icons/icons8-react-native-gradient-64px.png',
-            text:'Ni en la compra o al momento de exit, Batatabit siempre te muestra el costo real de lo que estás adquiriendo.',
+            title:'ENSEÑANZA DEL ALQUIMISTA',
+            text:'Paulo Coelho, dice en el alquimista... El mundo está en manos de aquellos que tienen el coraje de soñar y de correr el riesgo de vivir tus sueños.  La inteligencia no es tu expediente académico = es tu habilidad para enfrentarte a la vida.',
+            videoId: "0eC58i9FCsQ",  
         },
         {
             id: 2,
-            title:'Java',
-            image:'/assets/icons/icons8-java-64.png',
-            text:'Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.',
+            title:'¿ SE PUEDE ACTIVAR LA FELICIDAD ?.',
+            text:'¿ Cómo activar las Hormonas de la felicidad ? 1- Serotonina: Se activa haciendo ejercicio o pasando tiempo con la naturaleza. 2- Oxitocina: Se activa abrazando, besando o cuando reímos. 3- Endorfinas: Se activa cantando y cuando bailamos. 4- Dopamina : Se activa cuando dormimos bien.',
+            videoId: "oazjTxuK9JE",
         },
     ];
 
