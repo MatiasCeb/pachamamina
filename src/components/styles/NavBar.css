@@ -1,0 +1,54 @@
+.Navbar {
+    display: flex;
+    width: 100%;
+    padding: 0.5rem 1rem 1rem 1.5rem;
+    background-color: rgb(16, 2, 38);
+    justify-content: space-between;
+}
+.Navbar__brand {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.Navbar__brand:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.Navbar__brand-logo {
+    margin-right: 0.1rem;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    align-self: center;
+}
+.Header-name {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(108, 121, 134);
+    vertical-align: -webkit-baseline-middle;
+}
+.Header-lastname {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: rgb(108, 121, 134);
+    vertical-align: -webkit-baseline-middle;
+}
+.section--left {
+
+}
+.section--right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar--img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    justify-content: flex-end;
+}
