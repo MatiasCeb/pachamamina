@@ -7,7 +7,7 @@ class Navbar extends React.Component {
     render() {
         return (
         <div className="Navbar">
-                <div classNAme="section--left">
+                <div className="section--left">
                     <img className="Navbar__brand-logo" src={logo} alt="Logo"/>
                     <span className="Header-name">Pacha</span>
                     <span className="Header-lastname">Mamina</span>

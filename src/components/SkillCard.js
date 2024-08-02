@@ -11,24 +11,51 @@ const SkillCard = (props) => {
                 <p>{skill.title}</p>
                 <p>{skill.text}</p>
             </div>
-            <div className="lite-youtube">
+            <div className="lite-youtube--container">
                 <lite-youtube
                     videoid={skill.videoId}
-                    tabindex="0"
+                    tabIndex="0"
                     aria-label="button"
+                    style={{width: '600px'}}
                 >
                     <a
                         className="lty-playbtn"
                         href={`https://youtube.com/watch?v=${skill.videoId}`}
                         title={skill.title}
                         role="button"
-                        tabindex="0"
+                        tabIndex="0"
                     >
                         <span>{skill.title}</span>
                     </a>
                 </lite-youtube>
             </div>
         </div>
+        // <div className="item">
+        //     <div className="item-description">
+        //         <p>{skill.title}</p>
+        //         <p>{skill.text}</p>
+        //     </div>
+        //     <div className="item-video">
+        //         <div className="lite-youtube--container">
+        //             <lite-youtube
+        //                 videoid={skill.videoId}
+        //                 tabIndex="0"
+        //                 aria-label="button"
+        //                 style={{width: '200px', height: '200px'}}
+        //             >
+        //                 <a
+        //                     className="lty-playbtn"
+        //                     href={`https://youtube.com/watch?v=${skill.videoId}`}
+        //                     title={skill.title}
+        //                     role="button"
+        //                     tabIndex="0"
+        //                 >
+        //                     <span>{skill.title}</span>
+        //                 </a>
+        //             </lite-youtube>
+        //         </div>
+        //     </div>
+        // </div>
     )
 }
 
