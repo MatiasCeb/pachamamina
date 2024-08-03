@@ -1,0 +1,107 @@
+.session-section--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: var(--third-white-color);
+    margin-bottom: 100px;
+}
+
+/* .session-section--button-container{
+    width: 100px;
+    height: 40px;
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+} */
+
+.session-section--button{
+    width: 109px;
+    height: 40px;
+    background-color: var(--blue-color); 
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Rosario", sans-serif;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.session-section--container--h2{
+    color: var(--blue-color);
+    font-family: Roboto, Sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: rgb(16, 2, 38);
+}
+.backgroundImg {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    /* background-image: url("../assets/imgs/front-developer.png"); */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mainexchange--img {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: -10px;
+        align-content: center;
+}
+.main-exchange-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.main-exchange-container--h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--off-white);
+}
+.main-exchange-container--p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: rgb(108, 121, 134);
+}

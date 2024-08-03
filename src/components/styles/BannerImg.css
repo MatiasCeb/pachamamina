@@ -1,0 +1,20 @@
+.BannerImg--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 800px;
+    background-image: url("../assets/imgs/banner-img.webp");
+    background-position: initial;
+    background-repeat: no-repeat;
+}
+.BannerImg--container h2 {
+    font-family: 'Lora', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 2.6rem;
+    color: white
+}

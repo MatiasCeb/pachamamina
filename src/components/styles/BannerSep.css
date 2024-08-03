@@ -1,0 +1,21 @@
+.Banner-sep--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-image: url("../assets/imgs/banner-sep.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Banner-sep--container--small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-image: url("../assets/imgs/banner-sep.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}

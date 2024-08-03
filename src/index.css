@@ -1,10 +1,19 @@
 body {
   margin: 0;
-  font-family: 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --ligth-blue-color: #3182CE;
+  --blue-color: #004187;
+  --dark-blue-color: #1A202C;
+  --dark-gray-color: #2D3748;
+  --gray-color: #4A5568;
+  --ligth-gray-color: #718096;
+  --third-white-color: #EDF2F7;
+  --second-white-color: #F7FAFC;
+  --first-white-color: #ffffff;
 }
 
 code {
