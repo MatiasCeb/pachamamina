@@ -5,6 +5,7 @@ import YoutubeSection from './components/YoutubeSection';
 import BannerImg from './components/BannerImg';
 import BannerSep from './components/BannerSep';
 import SessionSection from './components/SessionSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
       <BannerSection />
       <SessionSection />
       <YoutubeSection />
+      <div className="banner-sep--container">
+        <BannerSep />
+      </div>
+      <Footer />
     </div>
   );
 }
