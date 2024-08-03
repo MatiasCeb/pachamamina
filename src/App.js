@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from "./components/NavBar";
-import Header from "./components/Header";
+import BannerSection from "./components/BannerSection";
 import YoutubeSection from './components/YoutubeSection';
 import BannerImg from './components/BannerImg';
 import BannerSep from './components/BannerSep';
@@ -11,9 +11,8 @@ function App() {
     <div className="App">
       <NavBar />
       <BannerImg />
-      <Header />
+      <BannerSection />
       <SessionSection />
-      <BannerSep className="Banner-sep--container--small" />
       <YoutubeSection />
     </div>
   );

@@ -18,6 +18,9 @@
     text-align: center;
     align-content: center;
 }
+.youtube-item--description--h3{
+    counter-reset: var(--blue-color);
+}
 .lite-youtube{
     width: 50%;
     max-height: 250px;
