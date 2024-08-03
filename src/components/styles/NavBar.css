@@ -38,7 +38,6 @@
     margin-right: 0.1rem;
     width: 40px;
     height: 40px;
-    margin-top: 10px;
     align-self: center;
 }
 .Header-name {
@@ -47,19 +46,17 @@
     font-weight: 300;
     line-height: 1.8rem;
     color: rgb(108, 121, 134);
-    vertical-align: -webkit-baseline-middle;
-}
-.NavBar-item {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: rgb(108, 121, 134);
-    vertical-align: -webkit-baseline-middle;
 }
 .Header-lastname {
     margin-top: 25px;
     font-size: 1.4rem;
     font-weight: bold;
+    line-height: 1.8rem;
+    color: rgb(108, 121, 134);
+}
+.NavBar-item {
+    font-size: 1.4rem;
+    font-weight: 500;
     line-height: 1.8rem;
     color: rgb(108, 121, 134);
     vertical-align: -webkit-baseline-middle;
@@ -71,11 +68,19 @@
     display: flex;
     width: 50%;
     justify-content: flex-end;
-    align-items: center;
+    align-items: end;
+    gap: 5px;
+    margin-right: 50px;
 }
 .navbar--img {
     margin-right: 5px;
     width: 20px;
     height: 20px;
+    justify-content: flex-end;
+}
+.navbar--icon{
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
     justify-content: flex-end;
 }

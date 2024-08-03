@@ -1,6 +1,7 @@
 import React from "react";
 import '@justinribeiro/lite-youtube';
 import "./styles/SkillCard.css";
+import Button from "./Button";
 
 const SkillCard = (props) => {
     const {skill} = props;
@@ -8,8 +9,11 @@ const SkillCard = (props) => {
     return (
         <div className="youtube-item">
             <div className="youtube-item--description">
-                <p>{skill.title}</p>
-                <p>{skill.text}</p>
+                <h3 className="youtube-item--description--h3">{skill.title}</h3>
+                <p className="youtube-item--description--p">{skill.text}</p>
+                <div className="youtube-item--description--button--container">
+                    <Button />
+                </div>
             </div>
             <div className="lite-youtube--container">
                 <lite-youtube
