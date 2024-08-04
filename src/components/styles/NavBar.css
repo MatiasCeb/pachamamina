@@ -3,20 +3,20 @@
     flex-direction: column;
     position: fixed;
     z-index: 1000;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
 }
 .headerBar{
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 93px;
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
 }
 .NavBar-section {
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 54px;
     background-color: rgb(241, 241, 241);
     justify-content: center;

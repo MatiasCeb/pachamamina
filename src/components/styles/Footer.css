@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    min-width: 700px;
+    width: 100vw;
+    /* min-width: 700px; */
     height: 100px;
     background-color: var(--blue-color);
 }
@@ -27,7 +27,7 @@
     line-height: 1.8rem;
     color: rgb(108, 121, 134);
 }
-.section--right {
+.footer--container--section-right {
     display: flex;
     width: 50%;
     justify-content: flex-end;
@@ -40,4 +40,24 @@
     width: 25px;
     height: 25px;
     justify-content: flex-start;
+}
+
+@media (max-width: 600px) {
+    .footer--container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer--container--section-left {
+        margin-left: 0px;
+    }
+    .footer--container--section-right {
+        display: flex;
+        gap: 5px;
+        /* margin-right: 50px; */
+        /* width: 50%; */
+        align-content: stretch;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

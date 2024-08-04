@@ -15,7 +15,7 @@ class Footer extends React.Component {
                 <span className="Header-name">Pacha</span>
                 <span className="Header-lastname">Mamina</span>
             </div>
-            <div className="section--right">
+            <div className="footer--container--section-right">
                 <div><a href="https://www.youtube.com/@pachamamina" rel="noopener noreferrer" target="_blank"><img className="navbar--icon" src={youtubeIconWhite} alt="Logo" /></a></div>
                 <div><a href="https://wa.me/5493425105622" rel="noopener noreferrer" target="_blank"><img className="navbar--icon" src={whatsappIconWhite} alt="Logo" /></a></div>
                 <div><a href="https://www.tiktok.com/@pacha.mamina?_t=8mx6ysfzdxt&_r=1" rel="noopener noreferrer" target="_blank"><img className="navbar--icon" src={tiktokIconWhite} alt="Logo" /></a></div>

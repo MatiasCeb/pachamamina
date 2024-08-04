@@ -20,7 +20,7 @@ const SkillCard = (props) => {
                     videoid={skill.videoId}
                     tabIndex="0"
                     aria-label="button"
-                    style={{width: '600px'}}
+                    style={{width: '80vw', 'max-width': '600px', 'border-radius': '25px'}}
                 >
                     <a
                         className="lty-playbtn"
