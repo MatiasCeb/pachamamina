@@ -5,6 +5,7 @@ import YoutubeSection from './components/YoutubeSection';
 import BannerImg from './components/BannerImg';
 import BannerSep from './components/BannerSep';
 import SessionSection from './components/SessionSection';
+import WhatsappButton from './components/WhatsappButton';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <div className="banner-sep--container">
         <BannerSep />
       </div>
+      <WhatsappButton />
       <Footer />
     </div>
   );

@@ -18,3 +18,9 @@
     line-height: 2.6rem;
     color: white
 }
+
+@media (max-width: 600px) {
+    .BannerImg--container {
+        background-image: url("../assets/imgs/banner-img-small.webp");
+    }
+}

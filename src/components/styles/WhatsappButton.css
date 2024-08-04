@@ -1,0 +1,23 @@
+.whatsapp-section {
+    position: fixed;
+    z-index: 1050;
+    right: 15px; 
+    bottom: 5px;
+}
+.whatsapp--icon-png{
+    width: 70px;
+    height: 70px;
+}
+
+@media (max-width: 600px) {
+    /* .whatsapp-section {
+        position: fixed;
+        z-index: 1050;
+        right: 15px; 
+        bottom: 5px;
+    } */
+    .whatsapp--icon-png{
+        width: 50px;
+        height: 50px;
+    }
+}

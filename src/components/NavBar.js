@@ -1,7 +1,5 @@
 import React from "react";
 import "./styles/NavBar.css"
-import logo from "../components/assets/icons/devicon.png";
-import github from "../components/assets/icons/icons8-github-white-30px.png";
 import youtubeIcon from "../components/assets/icons/icons8-youtube-play-50.png"
 import whatsappIcon from "../components/assets/icons/icons8-whatsapp-50.png"
 import tiktokIcon from "../components/assets/icons/icons8-tik-tok-50.png"
