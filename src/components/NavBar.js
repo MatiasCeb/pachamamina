@@ -14,12 +14,12 @@ class Navbar extends React.Component {
         return (
         <div className="Navbar">
             <div className="headerBar">
-                <div className="section--left">
+                <div className="NavBar-section--left">
                     <img className="Navbar__brand-logo" src={logo} alt="Logo"/>
                     <span className="Header-name">Pacha</span>
                     <span className="Header-lastname">Mamina</span>
                 </div>
-                <div className="section--right">
+                <div className="NavBar-section--right">
                     <div><a href="https://www.youtube.com/@pachamamina" rel="noopener noreferrer" target="_blank"><img className="navbar--icon" src={youtubeIcon} alt="Logo" /></a></div>
                     <div><a href="https://wa.me/5493425105622" rel="noopener noreferrer" target="_blank"><img className="navbar--icon" src={whatsappIcon} alt="Logo" /></a></div>
                     <div><a href="https://www.tiktok.com/@pacha.mamina?_t=8mx6ysfzdxt&_r=1" rel="noopener noreferrer" target="_blank"><img className="navbar--icon" src={tiktokIcon} alt="Logo" /></a></div>

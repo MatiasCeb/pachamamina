@@ -93,3 +93,23 @@ width: 70px;
 height: 50px;
 background: rgb(0, 0, 0);
 }
+
+@media (max-width: 600px) {
+    .youtube-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .youtube-item--description{
+        width: 100%;
+        min-width: 600px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        text-align: center;
+        align-content: center;
+    }
+    .youtube-item--description--button--container{
+        margin-top: 20px;
+    }
+}

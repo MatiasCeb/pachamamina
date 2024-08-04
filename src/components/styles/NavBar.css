@@ -40,7 +40,7 @@
     height: 40px;
     align-self: center;
 }
-.section--left {
+.NavBar-section--left {
     display: flex;
     width: 50%;
     justify-content: flex-start;
@@ -67,7 +67,7 @@
     color: rgb(108, 121, 134);
     vertical-align: -webkit-baseline-middle;
 }
-.section--right {
+.NavBar-section--right {
     display: flex;
     width: 50%;
     justify-content: flex-end;
@@ -86,4 +86,21 @@
     width: 25px;
     height: 25px;
     justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+    .headerBar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .NavBar-section--right {
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+    .NavBar-section {
+        flex-direction: column;
+        height: 100%;
+        gap: 0px;
+    }
+
 }
