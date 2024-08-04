@@ -1,6 +1,7 @@
 import React from "react";
 import { skills } from "./shared/skills";
 import SkillCard from "./SkillCard";
+// import "./styles/PodcastSection.css";
 import "./styles/YoutubeSection.css";
 
 
@@ -11,20 +12,6 @@ const YoutubeSection = () => {
                 <SkillCard key={skill.id} skill={skill}/>)
             }
         </div>
-        // <div className="header">
-        //     {/* <div className="header--img" alt="" /> */}
-        //     <div className="header--title-container">
-        //         <h1 className="header--title-h1">Welcome! I´m Matías Ceballos</h1>
-        //         <p className="header--title-p">Frontend Developer</p>
-        //         <StyledSkills>
-        //             {skills.map((skill) =>              
-        //                 <SkillCard key={skill.id} skill={skill}/>)}
-        //         </StyledSkills>
-        //         <p className="header--title-p">Frontend Developer</p>
-        //         {skills.map((skill) =>              
-        //                 <SkillCard key={skill.id} skill={skill}/>)}
-        //     </div>
-        // </div>
     )
 };
 

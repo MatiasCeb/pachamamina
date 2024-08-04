@@ -28,7 +28,8 @@ class Navbar extends React.Component {
             <div className="NavBar-section">
                     <a href="#BannerSection" className="NavBar-item">Empieza hoy</a>
                     <a href="#SessionSection" className="NavBar-item">Agenda tu sesión</a>
-                    <a href="#YoutubeSection" className="NavBar-item">Youtube</a>
+                    <a href="#YoutubeSection" className="NavBar-item">Videos</a>
+                    <a href="#PodcastSection" className="NavBar-item">Podcast</a>
             </div>
         </div>
         )
