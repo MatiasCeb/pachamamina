@@ -20,3 +20,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#BannerSection {
+  scroll-margin-top: 250px;
+}
+#SessionSection {
+  scroll-margin-top: 250px;
+}
+#YoutubeSection {
+  scroll-margin-top: 250px;
+}

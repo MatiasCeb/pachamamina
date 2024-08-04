@@ -8,9 +8,9 @@ import logo from "../components/assets/icons/devicon.png";
 
 const SessionSection = () => {
     return (
-        <section className="session-section--container">
+        <section id="SessionSection" className="session-section--container">
             <div className="session-section--button-container">
-                <a href="/" rel="noopener noreferrer" target="_blank" className="session-section--button">Start Here</a>
+                <a href="https://wa.me/5493425105622" rel="noopener noreferrer" target="_blank" className="session-section--button">Empieza hoy</a>
             </div>
             <h2 className="session-section--container--h2">Begin Your Journey Here...</h2>
         </section>

@@ -5,7 +5,7 @@ import BannerSep from "./BannerSep";
 
 const BannerSection = () => {
     return(
-        <div className="banner-section--container">
+        <div id="BannerSection" className="banner-section--container">
             {/* <div className="header--img" alt="" /> */}
             <div className="banner-section--title-container">
                 <h1 className="header--title-h1">Imagine what you could do with your life if you believed in yourself?</h1>

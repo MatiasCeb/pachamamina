@@ -6,7 +6,7 @@ import "./styles/YoutubeSection.css";
 
 const YoutubeSection = () => {
     return(
-        <div className="youtube--section-container">
+        <div id="YoutubeSection" className="youtube--section-container">
             {skills.map((skill) =>              
                 <SkillCard key={skill.id} skill={skill}/>)
             }

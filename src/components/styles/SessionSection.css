@@ -106,3 +106,10 @@
     line-height: 1.6rem;
     color: rgb(108, 121, 134);
 }
+
+
+@media (max-width: 600px) {
+    #SessionSection {
+        scroll-margin-top: 10px;
+    }
+}

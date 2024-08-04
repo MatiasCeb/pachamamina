@@ -62,11 +62,17 @@
     color: rgb(108, 121, 134);
 }
 .NavBar-item {
+    outline: none;
+    text-decoration: none;
+    border-bottom: 0px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: rgb(108, 121, 134);
+    color: var(--ligth-gray-color);
     vertical-align: -webkit-baseline-middle;
+}
+.NavBar-item:hover {
+    color: var(--gray-color)
 }
 .NavBar-section--right {
     display: flex;
@@ -90,6 +96,9 @@
 }
 
 @media (max-width: 600px) {
+    .Navbar {
+        position: relative;
+    }
     .headerBar{
         flex-direction: column;
         justify-content: center;
