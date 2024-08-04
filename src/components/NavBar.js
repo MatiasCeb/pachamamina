@@ -15,7 +15,6 @@ class Navbar extends React.Component {
         <div className="Navbar">
             <div className="headerBar">
                 <div className="NavBar-section--left">
-                    <img className="Navbar__brand-logo" src={logo} alt="Logo"/>
                     <span className="Header-name">Pacha</span>
                     <span className="Header-lastname">Mamina</span>
                 </div>

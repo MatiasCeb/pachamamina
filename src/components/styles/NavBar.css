@@ -46,6 +46,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 5px;
+    margin-left: 25px;
     margin-right: 50px;
 }
 .Header-name {
@@ -93,12 +94,20 @@
         flex-direction: column;
         justify-content: center;
     }
+    .NavBar-item {
+        margin-left: 25px;
+    }
+    .NavBar-section--left {
+        
+    }
     .NavBar-section--right {
         justify-content: flex-start;
-        margin-left: 50px;
+        margin-left: 25px;
     }
     .NavBar-section {
+        display: flex;
         flex-direction: column;
+        align-items: flex-start;
         height: 100%;
         gap: 0px;
     }
