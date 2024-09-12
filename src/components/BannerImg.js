@@ -4,7 +4,7 @@ import "./styles/BannerImg.css";
 const BannerImg = () => {
     return (
         <div className="BannerImg--container">
-            <h2>Believe in Yourself</h2>
+            <h2>Cree en ti</h2>
         </div>
     )
 }
